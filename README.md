@@ -1,2 +1,2 @@
 # hw_dotnet
-IT-academy homeworks
+IT-academy course (md-nd1-54-21)
