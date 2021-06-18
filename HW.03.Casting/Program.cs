@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace HW._03.Casting
+namespace HW02.Casting
 {
     class Program
     {

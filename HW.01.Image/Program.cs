@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace HW._01.Image
+namespace HW02.Image
 {
     class Program
     {

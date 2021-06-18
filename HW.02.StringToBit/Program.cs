@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace HW._02.StringToBit
+namespace HW02.StringToBit
 {
     class Program
     {
