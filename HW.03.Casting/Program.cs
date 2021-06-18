@@ -14,7 +14,7 @@ namespace HW02.Casting
             int intVal = 2000000;
             double doubleVal = 0.001;
             DateTime dateTimeVal = new DateTime();
-            string stringVal = "it-academy";
+            string stringVal = "123";
             bool boolVal = true;
             decimal decimalVal;
             ushort ushortVal = 500;
@@ -60,9 +60,9 @@ namespace HW02.Casting
 
             //Unboxing
             //1
-            intVal = (int)objectVal;
+            intVal = (int)objInt;
             //2
-            boolVal = bool.Parse(stringVal);
+            boolVal = bool.Parse(strBool);
             //3
             int integer1 = (int)arrayList[0];
             //4
