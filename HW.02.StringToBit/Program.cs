@@ -8,7 +8,7 @@ namespace HW._02.StringToBit
         static void Main(string[] args)
         {
             var input = "Hello guys from the most popular programming course – C#!";
-            string result = ConvertStringToBits(input);
+            var result = ConvertStringToBits(input);
             Console.WriteLine(result);
         }
 
