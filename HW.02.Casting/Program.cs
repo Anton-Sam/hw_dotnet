@@ -69,8 +69,6 @@ namespace HW02.Casting
             char char1 = stringVal.Last();
             //5
             dateTimeVal = (DateTime)objDate;
-
-
         }
     }
 }

@@ -7,9 +7,7 @@ namespace HW02.Quadratic.Formula
     {
         static void Main(string[] args)
         {
-
             FindQuadraticEquation();
-
         }
         private static void FindQuadraticEquation()
         {
@@ -25,7 +23,6 @@ namespace HW02.Quadratic.Formula
             CheckInputValue(Console.ReadLine(), out c);
 
             FindRoots(a, b, c);
-
         }
 
         private static void CheckInputValue(string input, out double output)
