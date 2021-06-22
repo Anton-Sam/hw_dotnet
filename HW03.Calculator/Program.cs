@@ -6,54 +6,29 @@ namespace HW03.Calculator
     {
         static void Main(string[] args)
         {
-            int number1, number2;
+            CalculatorActionWithInputParams("Сложение", "Сумма", Addition);
 
-            Console.WriteLine("Сложение");
-            Console.WriteLine("Введите первый параметр");
-            number1 = NumberInputWithConvert();
-            Console.WriteLine("Введите второй параметр");
-            number2 = NumberInputWithConvert();
-            Console.WriteLine($"Сумма: {Addition(number1, number2)}");
+            CalculatorActionWithInputParams("Вычитание", "Разница", Subtraction);
 
-            Console.WriteLine("Вычитание");
-            Console.WriteLine("Введите первый параметр");
-            number1 = NumberInputWithConvert();
-            Console.WriteLine("Введите второй параметр");
-            number2 = NumberInputWithConvert();
-            Console.WriteLine($"Разница: {Subtraction(number1, number2)}");
+            CalculatorActionWithInputParams("Умножение", "Произведение", Multiplication);
 
-            Console.WriteLine("Умножение");
-            Console.WriteLine("Введите первый параметр");
-            number1 = NumberInputWithConvert();
-            Console.WriteLine("Введите второй параметр");
-            number2 = NumberInputWithConvert();
-            Console.WriteLine($"Произведение: {Multiplication(number1, number2)}");
+            CalculatorActionWithInputParams("Деление", "Частное", Division);
 
-            Console.WriteLine("Деление");
-            Console.WriteLine("Введите первый параметр");
-            number1 = InputNumberWithTryParse();
-            Console.WriteLine("Введите второй параметр");
-            number2 = InputNumberWithTryParse();
-            Console.WriteLine($"Частное: {Division(number1, number2)}");
+            CalculatorActionWithInputParams("Нахождение остатка", "Остаток", Modulo);
 
-            Console.WriteLine("Остаток от деления");
-            Console.WriteLine("Введите первый параметр");
-            number1 = InputNumberWithTryParse();
-            Console.WriteLine("Введите второй параметр");
-            number2 = InputNumberWithTryParse();
-            Console.WriteLine($"Остаток: {Modulo(number1, number2)}");
-
-            Console.WriteLine("Плозадь круга");
-            Console.WriteLine("Введите радиус");
-            number1 = InputNumberWithTryParse();
-            Console.WriteLine($"Площадь: {CircleSquare(number1)}");
+            CalculatorActionWithInputParams("Площадь круга", "Площпдь", CircleSquare);
         }
 
         private static int Addition(int number1, int number2) => number1 + number2;
+
         private static int Subtraction(int number1, int number2) => number1 - number2;
+
         private static int Multiplication(int number1, int number2) => number1 * number2;
+
         private static double Division(int number1, int number2) => number1 / (double)number2;
+
         private static int Modulo(int number, int module) => number / module;
+
         private static double CircleSquare(int radius) => Math.PI * radius * radius;
 
         private static int NumberInputWithConvert()
@@ -83,5 +58,26 @@ namespace HW03.Calculator
             }
             return result;
         }
+
+        private static void CalculatorActionWithInputParams<T>(string operationName, string resultName, Func<int, int, T> calcFunc)
+        {
+            int param1, param2;
+            Console.WriteLine(operationName);
+            Console.WriteLine("Введите первый параметр");
+            param1 = NumberInputWithConvert();
+            Console.WriteLine("Введите второй параметр");
+            param2 = NumberInputWithConvert();
+            Console.WriteLine($"{resultName}: {calcFunc(param1, param2)}");
+        }
+
+        private static void CalculatorActionWithInputParams<T>(string operationName, string resultName, Func<int, T> calcFunc)
+        {
+            int param;
+            Console.WriteLine(operationName);
+            Console.WriteLine("Введите  параметр");
+            param = NumberInputWithConvert();
+            Console.WriteLine($"{resultName}: {calcFunc(param)}");
+        }
+
     }
 }
