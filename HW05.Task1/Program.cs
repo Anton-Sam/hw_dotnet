@@ -7,7 +7,7 @@ namespace HW05.Task1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(CalcExpression(GetMathExpressionFromString("gdfgdf23d,4dg54gf+23oP42")));
+            Console.WriteLine(CalcExpression(GetMathExpressionFromString("gdfgdf234dg54gf*23oP42")));
         }
 
         private static string GetMathExpressionFromString(string str) => Regex.Replace(str, @"[^\d+*/-]", "");
