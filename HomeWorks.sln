@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW02.Image", "HW.02.Image\HW02.Image.csproj", "{4BA3D7D9-BC01-4F81-B0EA-E940CCD56B1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW02.Image", "HW.02.Image\HW02.Image.csproj", "{4BA3D7D9-BC01-4F81-B0EA-E940CCD56B1B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW02.StringToBit", "HW.02.StringToBit\HW02.StringToBit.csproj", "{F9D72AB3-6014-4D5C-A342-A2B3A04C89F3}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW02.Types", "HW02.Types\HW02.Types.csproj", "{E2FF484B-E068-4627-9269-4AE3CAC6D347}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW02.Quadratic.Formula", "HW02.Quadratic.Formula\HW02.Quadratic.Formula.csproj", "{CF825803-36FB-4754-8509-E01DDB0FD6AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW05.Task1", "HW05.Task1\HW05.Task1.csproj", "{D85C2F41-0355-4348-9F44-50CB25C07E3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{CF825803-36FB-4754-8509-E01DDB0FD6AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF825803-36FB-4754-8509-E01DDB0FD6AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF825803-36FB-4754-8509-E01DDB0FD6AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D85C2F41-0355-4348-9F44-50CB25C07E3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D85C2F41-0355-4348-9F44-50CB25C07E3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D85C2F41-0355-4348-9F44-50CB25C07E3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D85C2F41-0355-4348-9F44-50CB25C07E3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
