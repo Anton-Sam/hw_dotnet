@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW04.Reverse", "HW04.Revers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW04.Poem", "HW04.Poem\HW04.Poem.csproj", "{6ACCFB71-13A5-4C40-AA09-D14271DD7DF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW04.StringRefactoring", "HW04.StringRefactoring\HW04.StringRefactoring.csproj", "{1B4D45F7-7209-4473-8BC5-D282F8810533}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{6ACCFB71-13A5-4C40-AA09-D14271DD7DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6ACCFB71-13A5-4C40-AA09-D14271DD7DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6ACCFB71-13A5-4C40-AA09-D14271DD7DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4D45F7-7209-4473-8BC5-D282F8810533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4D45F7-7209-4473-8BC5-D282F8810533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4D45F7-7209-4473-8BC5-D282F8810533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4D45F7-7209-4473-8BC5-D282F8810533}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
