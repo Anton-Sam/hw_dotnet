@@ -1,5 +1,4 @@
 ﻿using HW06.AssemblyOne;
-using System;
 
 namespace HW06.AssemblyTwo
 {

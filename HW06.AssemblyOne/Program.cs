@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace HW06.AssemblyOne
+﻿namespace HW06.AssemblyOne
 {
     class Program
     {
