@@ -9,10 +9,10 @@ namespace HW07.Booking.Com
     {
         static void Main(string[] args)
         {
-            CreateTestDate();
+            TestService();
         }
 
-        private static void CreateTestDate()
+        private static void TestService()
         {
             BookingService.RegisterUser("anton@gmail.com","Anton", "123");
             var user = BookingService.LoginUser("anton@gmail.com", "123");
@@ -36,8 +36,5 @@ namespace HW07.Booking.Com
 
             BookingService.Purchase(user);
         }
-
-
-
     }
 }
