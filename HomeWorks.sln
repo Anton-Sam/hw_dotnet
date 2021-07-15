@@ -52,7 +52,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW06.AssemblyTwo", "HW06.As
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW06.Task2", "HW06.Task2\HW06.Task2.csproj", "{9721B946-C987-4F45-945D-2431CADCA33C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW08.Task1", "HW08.Task1\HW08.Task1.csproj", "{93B8F30E-8938-4E48-9C09-EFB0D7A87B7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW08.Task1", "HW08.Task1\HW08.Task1.csproj", "{93B8F30E-8938-4E48-9C09-EFB0D7A87B7D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW08.Task2", "HW08.Task2\HW08.Task2.csproj", "{933E0668-1609-4713-9ADE-6A04C9150013}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -152,6 +154,10 @@ Global
 		{93B8F30E-8938-4E48-9C09-EFB0D7A87B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93B8F30E-8938-4E48-9C09-EFB0D7A87B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93B8F30E-8938-4E48-9C09-EFB0D7A87B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{933E0668-1609-4713-9ADE-6A04C9150013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{933E0668-1609-4713-9ADE-6A04C9150013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{933E0668-1609-4713-9ADE-6A04C9150013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{933E0668-1609-4713-9ADE-6A04C9150013}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
